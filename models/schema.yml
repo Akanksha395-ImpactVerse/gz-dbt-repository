@@ -1,13 +1,13 @@
- # schema.yml
+# schema.yml
 
  version: 2
  
  sources:
     - name: raw
-      schema: gz_raw_data
+      schema: raw_gz_data
       tables: 
         - name: sales
-          identifier: raw_gz_sales
+          identifier: gz_sales
         - name: product
           identifier: raw_gz_product 
         - name: ship
